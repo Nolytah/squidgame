@@ -1,0 +1,56 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+.symbols {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.symbols span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border: 4px solid #ff007f;
+  box-shadow: 0 0 10px #ff007f;
+}
+.circle {
+  border-radius: 50%;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #ff007f;
+  background: none;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+.square {
+  border-radius: 0;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+button {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.slot {
+  margin-top: 30px;
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}

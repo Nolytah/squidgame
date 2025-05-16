@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="symbols" style="text-align:center; margin-bottom:20px;">
+  <!-- Cercle -->
+  <svg width="60" height="60" viewBox="0 0 100 100" style="margin: 0 10px;">
+    <circle cx="50" cy="50" r="40" stroke="#ff1c65" stroke-width="8" fill="none" />
+  </svg>
+  
+  <!-- Triangle -->
+  <svg width="60" height="60" viewBox="0 0 100 100" style="margin: 0 10px;">
+    <polygon points="50,15 90,85 10,85" stroke="#ff1c65" stroke-width="8" fill="none" />
+  </svg>
+  
+  <!-- Carré -->
+  <svg width="60" height="60" viewBox="0 0 100 100" style="margin: 0 10px;">
+    <rect x="15" y="15" width="70" height="70" stroke="#ff1c65" stroke-width="8" fill="none" />
+  </svg>
+</div>
+
+<h1>Quel joueur seras-tu ?</h1>
+<button onclick="generateNumber()">Tirer mon numéro</button>
+
+<div class="slot" id="slot">000</div>
+
+<audio id="gong" src="https://assets.mixkit.co/sfx/preview/mixkit-deep-gong-2351.mp3"></audio>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
